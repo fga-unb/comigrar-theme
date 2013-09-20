@@ -50,6 +50,20 @@ body {
 
 #user { top: -30px; }
 
+#barra-psocial {
+    position: relative;
+    width: 960px;
+    margin: auto;
+}
+#assets-menu {
+    background: #E8E8E8;
+    top: 35px;
+    left: 80px;
+    min-width: 132px;
+}
+#assets-menu a {
+    border: 1px solid #E8E8E8;
+}
 
 /* Title Header */
 
