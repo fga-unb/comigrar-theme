@@ -5,7 +5,14 @@ body {
     background: #FFF;
 }
 
+#wrap-1 {
+    width: auto;
+    margin: 0px;
+}
+
 #wrap-2 {
+    width: 960px;
+    margin: auto;
     border: 0px;
 }
 
@@ -21,9 +28,30 @@ body {
     background: none;
 }
 
-/* Title Style */
+/* Bar Psocial Style */
 
-/*Tile Header*/
+#theme-header {
+    height: 40px;
+    background-image: linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
+    background-image: -o-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
+    background-image: -moz-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
+    background-image: -webkit-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%); 
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.2, #E8E8E8),
+        color-stop(0.8, #FEFEFE)
+    );
+}
+
+#site-title { top: -40px; }
+
+#user { top: -30px; }
+
+
+/* Title Header */
 
 #content .main-block h1, 
 #content .main-block h2,
