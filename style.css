@@ -1,4 +1,26 @@
 @import url(../profile-base/style.css);
 
-/************************** left panel ***************************/
+/* Painel lateral de menus */
+.box-2 {
+width: 160px;
+}
 
+.box-2 .link-list-block li a.link-this-page {
+width: 160px !important;
+}
+
+.box-2 .link-list-block li a {
+font-size: 14px;
+line-height: auto;
+color: #000;
+background-color: none;
+border-radius: 0px;
+padding: 0.6em 1.5em !important;
+}
+
+.box-2 .link-list-block li {
+border-top: 1px solid #ddd;
+border-bottom: none;
+padding: 0 !important;
+margin: 0;
+}
