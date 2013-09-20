@@ -1,13 +1,22 @@
 @import url(../profile-base/style.css);
 
-/* Painel lateral de menus */
+
+
+
+/*  Panel Right Style */
 .box-1 {
     margin: 0 0 0 170px;
 }
 
+
+/* Panel Left Style */
+
 .box-2 {
-width: 160px;
+    width: 160px;
 }
+
+
+/* Menu List left */
 
 #content .box-2 .block-title {
     font-size: 14px;
@@ -22,27 +31,35 @@ width: 160px;
 }
 
 #content .box-2 .link-list-block li a.link-this-page {
-width: auto;
-border-right: none;
+    width: auto;
+    border-right: none;
+    font-weight: bold;
+    color: #436976 !important;
+    border-top: 2px solid #64946e !important;
+    border-bottom: 2px solid #64946e !important;
+    background-color: #eeefff;
+    border-radius: 0px;
 }
 
 #content .box-2 .link-list-block li a {
-font-size: 14px;
-line-height: 1em;
-color: #436976;
-background-color: #FFF;
-border-radius: none;
-padding: 0.6em 1.5em;
+    font-size: 14px;
+    line-height: 1em;
+    color: #436976;
+    background-color: #FFF;
+    border-radius: none;
+    padding: 0.6em 1.5em;
 }
 
 #content .box-2 .link-list-block li a:hover {
-background-color: #FFF;
-color: #000;
+    background-color: #FFF;
+    color: #000;
 }
 
-.box-2 .link-list-block li {
-border-bottom: 1px solid #ddd;
-border-top: none;
-padding: 0 !important;
-margin: 0 !important;
+#content .box-2 .link-list-block li {
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+    padding: 0;
+    margin: 0;
 }
+
+/* */
