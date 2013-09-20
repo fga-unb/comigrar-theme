@@ -1,7 +1,13 @@
 @import url(../profile-base/style.css);
 
+/* Main style page */
+body {
+    background: #FFF;
+}
 
-
+#wrap-2 {
+    border: 0px;
+}
 
 /*  Panel Right Style */
 .box-1 {
@@ -19,7 +25,7 @@
 /* Menu List left */
 
 #content .box-2 .block-title {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     border-top: 4px solid #00510f;
     background: #eeefff;
