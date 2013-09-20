@@ -1,26 +1,48 @@
 @import url(../profile-base/style.css);
 
 /* Painel lateral de menus */
+.box-1 {
+    margin: 0 0 0 170px;
+}
+
 .box-2 {
 width: 160px;
 }
 
-.box-2 .link-list-block li a.link-this-page {
-width: 160px !important;
+#content .box-2 .block-title {
+    font-size: 14px;
+    text-align: left;
+    border-top: 4px solid #00510f;
+    background: #eeefff;
+    border-bottom: none;
+    color: #00510f;
+    padding: 8px 8px 24px 10px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-.box-2 .link-list-block li a {
+#content .box-2 .link-list-block li a.link-this-page {
+width: auto;
+border-right: none;
+}
+
+#content .box-2 .link-list-block li a {
 font-size: 14px;
-line-height: auto;
+line-height: 1em;
+color: #436976;
+background-color: #FFF;
+border-radius: none;
+padding: 0.6em 1.5em;
+}
+
+#content .box-2 .link-list-block li a:hover {
+background-color: #FFF;
 color: #000;
-background-color: none;
-border-radius: 0px;
-padding: 0.6em 1.5em !important;
 }
 
 .box-2 .link-list-block li {
-border-top: 1px solid #ddd;
-border-bottom: none;
+border-bottom: 1px solid #ddd;
+border-top: none;
 padding: 0 !important;
-margin: 0;
+margin: 0 !important;
 }
