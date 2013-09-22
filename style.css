@@ -136,10 +136,10 @@ div#article-parent {
 #content .box-2 .block-title {
     font-size: 12px;
     text-align: left;
-    border-top: 4px solid #00510f;
+    border-top: 4px solid #757575;
     background: #eeefff;
     border-bottom: none;
-    color: #00510f;
+    color: #757575;
     padding: 8px 8px 24px 10px;
     text-transform: uppercase;
     margin: 0;
@@ -177,4 +177,26 @@ div#article-parent {
     margin: 0;
 }
 
-/* */
+/* Block My Network style */
+
+#content .box-2 .my-network-block {
+    background: #eeefff;
+}
+
+#content .box-2 .my-network-block .block-title {
+    background: #757575;
+    padding: 0.6em 1.5em;
+    color: #FFF;
+}
+
+#content .box-2 .my-network-block ul {
+    padding: 10px 0px 10px 20px;
+}
+
+#content .box-2 .my-network-block a.button {
+    line-height: 1em;
+    height: auto;
+    width: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
