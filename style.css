@@ -193,7 +193,7 @@ div#article-parent {
     padding: 10px 0px 10px 20px;
 }
 
-#content .box-2 .my-network-block a.button {
+#content .box-2 .my-network-block .my-network-actions a.button {
     line-height: 1em;
     height: auto;
     width: 100px;
