@@ -177,26 +177,138 @@ div#article-parent {
     margin: 0;
 }
 
+/* Blocks main style */
+
+#content .box-1 .block {
+    background: #eeefff;
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+}
+
+#content .box-1 .block-title {
+    background: #757575;
+    padding: 0.6em 1.5em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-variant: normal;
+}
+
+#content .box-1 .main-block {
+    background: #FFF;
+    width: 100%;
+    clear: both;
+}
+
+/* Editorial Area */
+
+#content .box-1 .news-area {
+    width: 32%;
+    margin-right: 10px;
+}
+
+#content .box-1 a {
+    text-decoration: none;
+}
+
+#content .box-1 .news-area h3 {
+    background: #DFDFDF;
+    text-decoration: none;
+    line-height: 40px;
+    height: 40px;
+    min-height: 40px;
+    border-top: 8px solid #545454;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#content .box-1 .news-area a.news-see-more {
+    position: relative;
+    border-top: 3px solid #545454;
+    background-color: #DFDFDF;
+    width: auto;
+    display: block;
+    text-align: right;
+    padding: 5px 15px;
+}
+
+#content .box-1 .news-area ul {
+    background: #FFF;
+    border: none;
+    background-image: none;
+}
+
 /* Block My Network style */
 
-#content .box-2 .my-network-block {
+#content .my-network-block {
     background: #eeefff;
 }
 
-#content .box-2 .my-network-block .block-title {
+#content .my-network-block .block-title {
     background: #757575;
     padding: 0.6em 1.5em;
     color: #FFF;
 }
 
-#content .box-2 .my-network-block ul {
+#content .my-network-block ul {
     padding: 10px 0px 10px 20px;
 }
 
-#content .box-2 .my-network-block .my-network-actions a.button {
+#content .my-network-block .my-network-actions a.button {
     line-height: 1em;
     height: auto;
     width: 100px;
     display: block;
     margin-bottom: 5px;
+}
+
+/* Blocks profiles and enterprises */
+.box-1 .menu-submenu {
+    bottom: 80px;
+    right: -40px;
+}
+
+.box-1 .common-profile-list-block .vcard {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.box-1 .common-profile-list-block .profile_link {
+    width: 65px;
+    height: 80px;
+}
+
+.box-1 .common-profile-list-block span {
+ width: auto;
+}
+
+.box-1 .common-profile-list-block .profile-image {
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+.box-1 .common-profile-list-block {
+    margin-left: 15px;
+}
+
+.box-1 .block-footer-content {
+    clear: both;
+    text-align: right;
+    font-size: 11px;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    background: #DFDFDF;
+    border-top: 3px solid #545454;
+}
+
+#content .box-1 .block-footer-content a {
+    position: relative;
 }
