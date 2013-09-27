@@ -54,6 +54,13 @@ body {
 
 #user { top: -30px; }
 
+#barra-brasil {
+    box-shadow: 0px 0px 10px #DFDFDF inset;
+    z-index: 9999;
+    position: relative;
+    width: 100%;
+}
+
 #barra-psocial {
     position: relative;
     width: 960px;
