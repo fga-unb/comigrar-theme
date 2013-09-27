@@ -96,9 +96,29 @@ body {
     border-radius: 5px;
 }
 
+/* Social Buttons */
+#social-buttons {
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin-top: -50px;
+    height: 30px;
+}
+
+#social-buttons a {
+    display: inline-block;
+    border: 1px solid red;
+    width: 24px;
+    height: 24px;
+    background: #dfdfdf;
+    margin-right: 3px;
+}
+
+#social-buttons span { display: none; }
+
 /* Title Header */
 
-#content .main-block h1, 
+#content .main-block h1,
 #content .main-block h2,
 #content .main-block h3,
 #content .main-block h4 {
