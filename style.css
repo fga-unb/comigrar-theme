@@ -170,24 +170,11 @@ body {
     min-height: 48px;
 }
 
-/* Article Style */
 div#article-parent {
     position: absolute;
     right: 0px;
     top: 0px;
 }
-
-/*  Panel Right Style */
-.box-1 {
-    margin: 0 0 0 170px;
-}
-
-/* Panel Left Style */
-
-.box-2 {
-    width: 160px;
-}
-
 
 /* Menu List left */
 
@@ -264,6 +251,21 @@ div#article-parent {
 
 #content .blog-post .title {
     text-align: left;
+}
+
+/* Box styles */
+.box-1 {
+    margin: 0 0 0 170px;
+}
+
+.box-2 {
+    width: 160px;
+}
+
+#content .box-3 .block {
+    width: 210px;
+    margin: 0px 0px 0px 30px;
+    float: left;
 }
 
 /* Editorial Area */
@@ -383,3 +385,48 @@ div#article-parent {
 #content .box-1 .block-footer-content a {
     position: relative;
 }
+
+
+/* Menu List footer */
+
+#content .box-3 .block-title {
+    font-size: 12px;
+    text-align: left;
+    border-top: none;
+    background: #FFF;
+    border-bottom: none;
+    color: #757575;
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#content .box-3 .link-list-block li a.link-this-page {
+    width: auto;
+    border-right: none;
+    font-weight: bold;
+    background-color: #eeefff;
+    border-radius: 0px;
+}
+
+#content .box-3 .link-list-block li a {
+    font-size: 14px;
+    line-height: 1em;
+    color: #545454;
+    background-color: #FFF;
+    border-radius: none;
+    padding: 0.6em 1.5em;
+}
+
+#content .box-3 .link-list-block li a:hover {
+    background-color: #FFF;
+    color: #436976;
+}
+
+#content .box-3 .link-list-block li {
+    border-bottom: none;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+}
+
