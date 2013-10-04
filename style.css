@@ -430,3 +430,14 @@ div#article-parent {
     margin: 0;
 }
 
+.agenda-item a {
+  color: black;
+}
+.agenda-item a:visited {
+  color: black;
+  font-weight: normal;
+}
+.agenda-item a:hover {
+  color: black;
+  text-decoration: underline !important;
+}
