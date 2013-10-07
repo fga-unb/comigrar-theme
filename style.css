@@ -108,17 +108,37 @@ body {
     float: right;
     text-align: right;
     width: 200px;
-    margin-top: -50px;
+    margin-top: -30px;
     height: 30px;
 }
 
 #social-buttons a {
     display: inline-block;
-    border: 1px solid red;
     width: 24px;
     height: 24px;
-    background: #dfdfdf;
     margin-right: 3px;
+}
+
+#social-buttons a:hover {
+    opacity: 0.6;
+}
+
+#social-buttons #sb_face {
+background-image: url(images/facebook.png);
+background: none,url(images/facebook.svg);
+background-size: 100% 100%;
+}
+
+#social-buttons #sb_tweet {
+background-image: url(images/twitter.png);
+background: none,url(images/twitter.svg);
+background-size: 100% 100%;
+}
+
+#social-buttons #sb_feed {
+background-image: url(images/rss.png);
+background: none,url(images/rss.svg);
+background-size: 100% 100%;
 }
 
 #social-buttons span { display: none; }
@@ -441,3 +461,5 @@ div#article-parent {
   color: black;
   text-decoration: underline !important;
 }
+
+#box-organizer .block-target { clear: both; }
