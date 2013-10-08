@@ -1,4 +1,4 @@
-comigrar-theme
-==============
+Conference Theme Noosfero
+=========================
 
-Noosfero theme for the comigrar environment.
+Noosfero theme for the Conference environment.
