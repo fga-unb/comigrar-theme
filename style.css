@@ -349,11 +349,16 @@ div#article-parent {
 }
 
 #content .my-network-block .my-network-actions a.button {
-    line-height: 1em;
-    height: auto;
     width: 100px;
     display: block;
     margin-bottom: 5px;
+}
+
+/* Hidden Actions MyNetwork */
+
+#content .box-2 .my-network-block .my-network-actions a.report-abuse-action,
+#content .box-2 .my-network-block .my-network-actions a.icon-menu-mail {
+    display: none;
 }
 
 /* Blocks profiles and enterprises */
