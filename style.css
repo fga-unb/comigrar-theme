@@ -171,7 +171,6 @@ background-size: 100% 100%;
 
 #content .main-block h1 {
     font-size: 2.3em !important;
-    text-transform: uppercase;
     font-weight: bold !important;
 }
 
@@ -406,6 +405,9 @@ div#article-parent {
     position: relative;
 }
 
+#content .box-1 .display-content-block {
+    width: 250px;
+}
 
 /* Menu List footer */
 
@@ -463,3 +465,28 @@ div#article-parent {
 }
 
 #box-organizer .block-target { clear: both; }
+
+/* Custom Icons */
+
+.box-2 .link-list-block .icon-ok,
+.box-2 .link-list-block .icon-eyes,
+.box-2 .link-list-block .icon-edit,
+.box-2 .link-list-block .icon-photos {
+    background-image: url('images/media-icons.png');
+    background-position: 0px -325px !important;
+    height: 27px;
+    padding: 13px 0px 0px 45px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-2 .link-list-block .icon-ok {
+    background-position: 0px -165px !important;
+}
+.box-2 .link-list-block .icon-eyes {
+    background-position: 0px -125px !important;
+}
+.box-2 .link-list-block .icon-edit {
+    background-position: 0px -245px !important;
+}
+
