@@ -468,10 +468,10 @@ div#article-parent {
 
 /* Custom Icons */
 
-.box-2 .link-list-block .icon-ok,
-.box-2 .link-list-block .icon-eyes,
-.box-2 .link-list-block .icon-edit,
-.box-2 .link-list-block .icon-photos {
+.box-2 .link-list-block ul li .icon-ok,
+.box-2 .link-list-block ul li .icon-eyes,
+.box-2 .link-list-block ul li .icon-edit,
+.box-2 .link-list-block ul li .icon-photos {
     background-image: url('images/media-icons.png');
     background-position: 0px -325px !important;
     height: 27px;
@@ -480,13 +480,14 @@ div#article-parent {
     margin-bottom: 5px;
 }
 
-.box-2 .link-list-block .icon-ok {
+.box-2 .link-list-block ul li .icon-ok {
     background-position: 0px -165px !important;
 }
-.box-2 .link-list-block .icon-eyes {
+.box-2 .link-list-block ul li .icon-eyes {
     background-position: 0px -125px !important;
 }
-.box-2 .link-list-block .icon-edit {
+.box-2 .link-list-block ul li .icon-edit {
     background-position: 0px -245px !important;
 }
+
 
