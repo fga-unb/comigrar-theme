@@ -87,7 +87,10 @@ body {
     position: absolute;
     top: 100px;
     right: 20px;
-    z-index: 999;
+    z-index: 5;
+}
+#search-header .search-field div {
+    display: none;
 }
 #search-header input.button.with-text {
     width: 22px;
@@ -352,7 +355,10 @@ div#article-parent {
 #content .my-network-block .my-network-actions a.button {
     width: 100px;
     display: block;
+    line-height: 1.2em;
     margin-bottom: 5px;
+    height: auto;
+    min-height: 20px;
 }
 
 /* Hidden Actions MyNetwork */
