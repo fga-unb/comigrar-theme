@@ -32,6 +32,7 @@ body {
 
 #theme-header {
     height: 40px;
+    background: #E8E8E8;
     background-image: linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -o-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -moz-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
@@ -165,27 +166,27 @@ background-size: 100% 100%;
 }
 
 #content .title {
-    font-weight: normal; !important;
+    font-weight: normal;
     padding-right: 70px;
 }
 
 #content .main-block h1 {
-    font-size: 2.3em !important;
-    font-weight: bold !important;
+    font-size: 2.3em;
+    font-weight: bold;
 }
 
 #content .main-block h2 {
-    font-size: 1.8em !important;
+    font-size: 1.8em;
     min-height: 48px;
 }
 
 #content .main-block h3 {
-    font-size: 1.5em !important;
+    font-size: 1.5em;
     min-height: 48px;
 }
 
 #content .main-block h4 {
-    font-size: 1.3em !important;
+    font-size: 1.3em;
     min-height: 48px;
 }
 
@@ -455,10 +456,26 @@ div#article-parent {
 }
 
 #content .box-3 .link-list-block li {
-    border-bottom: none;
-    border-top: none;
-    padding: 0;
-    margin: 0;
+  border-bottom: none;
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Agenda Style */
+
+#events-of-the-day h2 {
+  text-align: center;
+  color: #757575;
+  text-transform: uppercase;
+  background: #eeefff;
+  line-height: 2em;
+  font-size: 1.2em !important;
+  border-top: 4px solid #757575;
+}
+
+.agenda-item {
+  border-bottom: 1px solid #ddd;
 }
 
 .agenda-item a {
@@ -471,6 +488,28 @@ div#article-parent {
 .agenda-item a:hover {
   color: black;
   text-decoration: underline !important;
+}
+
+#agenda .agenda-calendar .calendar-day a {
+  background: #eeefff;
+  padding: 7px;
+  border-radius: 25px;
+}
+
+#agenda .loading {
+  background-position: center 100px;
+}
+
+#agenda .loading #agenda-items {
+  display: none !important;
+  transition: 0.3s;
+}
+
+#agenda .agenda-calendar caption a.icon-next {
+  background-position: right;
+  text-align: left;
+  padding-left: 2px;
+  padding-right: 20px;
 }
 
 #box-organizer .block-target { clear: both; }
