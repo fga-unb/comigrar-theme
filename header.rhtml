@@ -1,26 +1,31 @@
 <div id="barra-brasil">
 </div>
 <div id="barra-psocial">
-<div id="assets-menu">
-  <ul>
-    <%= generate_assets_menu %>
+  <div id="ps-categories">
+  <% unless environment.enabled?(:disable_categories) %>
+  <% cache(environment.id.to_s +  '_categories_menu') do %>
+  <ul id="cat_menu">
+    <% @environment.display_categories.each do |item| %>
+      <li id="category<%= item.display_color %>"<%= ' class="active"' if (@category && (@category.top_ancestor == item)) %>>
+      <%= link_to(content_tag('span', item.name),
+                  :controller => 'search',
+                  :action => 'category_index',
+                  :category_path => item.explode_path) %>
+        <ul>
+          <% item.children_for_menu.each do |child| %>
+              <li><%= link_to(content_tag('span', child.name),
+                              :controller => 'search',
+                              :action => 'category_index',
+                              :category_path => child.explode_path) %></li>
+          <% end %>
+        </ul>
+      </li>
+    <% end %>
   </ul>
-</div><!-- fim id="assets-menu" -->
-
-<script type="text/javascript">
-  jQuery(function($) {
-    $("#site-title, #assets-menu").mouseover(function() {
-      clearTimeout( window.closeAssetsTimeout );
-      $("#assets-menu").slideDown(400);
-    });
-    $("#site-title, #assets-menu").mouseout(function() {
-      window.closeAssetsTimeout =
-      setTimeout( function() { $("#assets-menu").slideUp(400); }, 500 );
-    });
-  });
-</script>
-</div>
-
+   <% end %>
+  <% end %>
+  </div>
+</div><!-- #barra-psocial -->
 <div id="search-header">
   <%= render :partial => 'shared/profile_search_form' %>
 </div>

@@ -57,7 +57,7 @@ body {
 
 #site-title { top: -40px; }
 
-#user { top: -30px; }
+#user { top: -30px; display: none; }
 
 #barra-brasil {
     box-shadow: 0px 0px 10px #DFDFDF inset;
@@ -71,14 +71,10 @@ body {
     width: 960px;
     margin: auto;
 }
-#assets-menu {
-    background: #E8E8E8;
-    top: 35px;
-    left: 80px;
-    min-width: 132px;
-}
-#assets-menu a {
-    border: 1px solid #E8E8E8;
+#site-title a {
+    display: block;
+    width: 230px;
+    height: 40px;
 }
 
 #search-header {
@@ -579,22 +575,49 @@ div#article-parent {
 .box-2 .link-list-block ul li .icon-eyes,
 .box-2 .link-list-block ul li .icon-edit,
 .box-2 .link-list-block ul li .icon-photos {
-    background-image: url('images/media-icons.png');
-    background-position: 0px -325px !important;
-    height: 27px;
-    padding: 13px 0px 0px 45px !important;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  background-image: url('images/media-icons.png');
+  background-position: 0px -325px !important;
+  height: 27px;
+  padding: 13px 0px 0px 45px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .box-2 .link-list-block ul li .icon-ok {
-    background-position: 0px -165px !important;
+  background-position: 0px -165px !important;
 }
 .box-2 .link-list-block ul li .icon-eyes {
-    background-position: 0px -125px !important;
+  background-position: 0px -125px !important;
 }
 .box-2 .link-list-block ul li .icon-edit {
-    background-position: 0px -245px !important;
+  background-position: 0px -245px !important;
 }
 
+/* Categories Barra Participacao */
+#ps-categories { z-index: 9999; border: 1px solid red; height: 40px; }
+#cat_menu {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 75px;
+  height: 35px;
+  display: none;
+}
+
+#cat_menu li {
+  display: inline;
+  float: left;
+}
+
+#cat_menu li ul { display: none; }
+
+#cat_menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #545454;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  white-space: nowrap;
+}
 
