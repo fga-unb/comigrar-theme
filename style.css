@@ -51,6 +51,10 @@ body {
     min-height: 150px;
 }
 
+#profile-footer {
+    margin-top: 30px;
+}
+
 #site-title { top: -40px; }
 
 #user { top: -30px; }
@@ -283,6 +287,7 @@ div#article-parent {
 
 .box-2 {
     width: 160px;
+    margin-bottom: 40px;
 }
 
 #content .box-3 .block {
@@ -480,20 +485,51 @@ div#article-parent {
   border-top: 4px solid #757575;
 }
 
-.agenda-item {
-  border-bottom: 1px solid #ddd;
+#agenda-items td {
+  border-top: 1px solid #bbb;
+  padding: 5px;
+  transition: 0.3s;
 }
 
-.agenda-item a {
-  color: black;
+#agenda-items a {
+  color: #545454;
 }
-.agenda-item a:visited {
-  color: black;
+#agenda-items a:visited {
+  color: #555;
   font-weight: normal;
 }
-.agenda-item a:hover {
-  color: black;
-  text-decoration: underline !important;
+#agenda-items a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#agenda .event-date {
+  font-size: 12px;
+  margin-top: -5px;
+  margin-right: -5px;
+  width: 70px;
+  background: #bbb;
+  text-align: center;
+  float: right;
+  color: #fff;
+  font-weight: bold;
+}
+
+#agenda .event-place {
+  font-size: 11px;
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  height: 25px;
+  overflow: hidden;
+  color: #444;
+  margin-left: 5px;
+}
+
+#agenda .event-title {
+  font-size: 1.2em;
+  max-height: 47px;
+  overflow: hidden;
+  width: 100%;
 }
 
 #agenda .agenda-calendar .calendar-day a {
@@ -516,6 +552,23 @@ div#article-parent {
   text-align: left;
   padding-left: 2px;
   padding-right: 20px;
+}
+
+#agenda #events-of-the-day,
+#agenda .agenda-calendar {
+  float: left;
+  left: auto;
+}
+
+#agenda #events-of-the-day {
+ position: relative; 
+}
+
+#agenda #events-of-the-day #agenda-items {
+  overflow: auto;
+  overflow-x: auto;
+  height: auto;
+  max-height: 650px;
 }
 
 #box-organizer .block-target { clear: both; }
