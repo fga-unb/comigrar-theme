@@ -1,0 +1,7 @@
+<ul id="cat_menu">
+  <% @environment.display_categories.each do |item| %>
+    <li id="category<%= item.display_color %>">
+      <%= item.name %>
+    </li>
+  <% end %>
+</ul><!-- fim id="cat_menu" -->
