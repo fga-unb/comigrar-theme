@@ -593,31 +593,3 @@ div#article-parent {
   background-position: 0px -245px !important;
 }
 
-/* Categories Barra Participacao */
-#ps-categories { z-index: 9999; border: 1px solid red; height: 40px; }
-#cat_menu {
-  padding: 0px;
-  margin: 0px;
-  margin-left: 75px;
-  height: 35px;
-  display: none;
-}
-
-#cat_menu li {
-  display: inline;
-  float: left;
-}
-
-#cat_menu li ul { display: none; }
-
-#cat_menu li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #545454;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 12px;
-  white-space: nowrap;
-}
-

@@ -1,29 +1,8 @@
 <div id="barra-brasil">
 </div>
 <div id="barra-psocial">
-  <div id="ps-categories">
-  <% unless environment.enabled?(:disable_categories) %>
-  <% cache(environment.id.to_s +  '_categories_menu') do %>
-  <ul id="cat_menu">
-    <% @environment.display_categories.each do |item| %>
-      <li id="category<%= item.display_color %>"<%= ' class="active"' if (@category && (@category.top_ancestor == item)) %>>
-      <%= link_to(content_tag('span', item.name),
-                  :controller => 'search',
-                  :action => 'category_index',
-                  :category_path => item.explode_path) %>
-        <ul>
-          <% item.children_for_menu.each do |child| %>
-              <li><%= link_to(content_tag('span', child.name),
-                              :controller => 'search',
-                              :action => 'category_index',
-                              :category_path => child.explode_path) %></li>
-          <% end %>
-        </ul>
-      </li>
-    <% end %>
-  </ul>
-   <% end %>
-  <% end %>
+  <div id="categories_menu">
+    <%= render :file => 'categories.rhtml' %>
   </div>
 </div><!-- #barra-psocial -->
 <div id="search-header">
