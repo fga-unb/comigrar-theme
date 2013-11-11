@@ -31,3 +31,7 @@
 .text-editor-sidebar-box .header {
   background-color: #F9F9F9 !important;
 }
+
+.header{
+  background-image: linear-gradient(to top,#ECECEC,#F9F9F9);
+}
