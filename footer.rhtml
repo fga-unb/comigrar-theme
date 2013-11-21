@@ -1,3 +1,35 @@
 <div id="footer-content">
 </div>
 <script type="text/javascript" src="http://barra.brasil.gov.br/barra.js?cor=verde"></script>
+<script type="text/javascript">
+  // Script that include the video-block on Droppables
+  function addVideoToDroppables() {
+  	var script_search = jQuery(".blocks script"); // get all script tags
+    var sub_search, position, before, after, new_code; 
+
+    for(var i = 0; i < script_search.length; i++) {
+      sub_search = jQuery(script_search[i]); // take one tag script into jquery object
+
+      // verify if this tag has Droppables.add
+      if( (sub_search.html().search("Droppables.add") > -1) && 
+      	  (sub_search.html().search("video-block") == -1) ) {
+        position = sub_search.html().search("']"); // get its position
+
+        before = sub_search.html().slice(0, position);
+        after = sub_search.html().slice(position, sub_search.html().length);
+
+        before += "','video-block"; // include the block class name
+        new_code = before + after; 
+
+        eval(new_code); // re-execute the function
+      }
+    }
+  }
+
+
+  jQuery(document).ready(function(){
+    if( jQuery("body.controller-profile_design").length == 1 ) {
+      addVideoToDroppables();
+    }
+  });
+</script>
