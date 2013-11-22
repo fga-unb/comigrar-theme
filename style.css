@@ -387,6 +387,29 @@ div#article-parent {
     background: #FFF;
 }
 
+/* Tags Article */
+#article-tags {
+    cursor: pointer;
+    margin-right: 30px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: #000;
+    overflow: hidden;
+    width: 49px;
+    height: 15px;
+    font-size: 13px;
+}
+
+#article-tags:hover {
+    font-size: 10px;
+    width: 156px;
+    background: #FFF;
+    padding: 5px;
+    height: auto;
+    line-height: 16px;
+}
+
 /* Block My Network style */
 
 #content .my-network-block {
