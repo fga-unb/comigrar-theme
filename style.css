@@ -13,6 +13,11 @@ p {
     font-size: 14px;
 }
 
+.cms-homepage a.icon-blog {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
 /* Main style page */
 body {
     background: #FFF;
