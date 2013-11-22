@@ -18,6 +18,8 @@ p {
     padding-left: 20px;
 }
 
+#profile-wall #leave_scrap textarea { float: left; }
+
 /* Main style page */
 body {
     background: #FFF;
