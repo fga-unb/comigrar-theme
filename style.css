@@ -215,7 +215,7 @@ background-size: 100% 100%;
 div#article-parent {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: -30px;
 }
 
 /* Menu List left */
