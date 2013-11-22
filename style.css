@@ -1,5 +1,9 @@
 @import url(../profile-base/style.css);
 
+/* Class all system */
+
+.author { display: none; }
+
 /* Main style page */
 body {
     background: #FFF;
