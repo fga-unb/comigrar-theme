@@ -354,6 +354,17 @@ div#article-parent {
     margin: 0px;
 }
 
+#content .blog-post .read-more a {
+    padding: 4px;
+    border: 1px solid #DFDFDF;
+    background: #F5FAF5;
+}
+
+#content .blog-post .read-more a:hover {
+    border 1px solid #000;
+    background: #FFF;
+}
+
 /* Block My Network style */
 
 #content .my-network-block {
