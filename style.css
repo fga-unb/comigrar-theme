@@ -1,5 +1,4 @@
 @import url(../profile-base/style.css);
-@import url(application2.css); 
 
 /* Class all system */
 
@@ -650,3 +649,44 @@ div#article-parent {
 }
 
 
+/* Form syles */
+
+.formfield input, .formfield textarea {
+  border: 1px solid #DFDFDF !important;
+  background-image: none  !important;  
+  background-color: #fff !important;
+  line-height: 1.8em !important;
+  color: #333 !important;
+  font-size: 13px !important;
+  outline: none !important;
+}
+
+.formfield input:focus, .formfield textarea:focus {
+  border: 1px solid #AAA !important;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .1) !important;
+}
+#article_name{
+  font-size: 18px !important;
+  color: #333 !important;
+}
+
+.controller-cms div.with_media_panel {
+  width: 580px !important;
+}
+.text-editor-sidebar {
+  width: 300px !important;
+}
+
+.text-editor-sidebar-box  {
+  background: #f5f5f5 !important;
+  border: 1px solid #DFDFDF !important;
+}
+.text-editor-sidebar-box .header {
+  background-color: #F9F9F9 !important;
+}
+
+.header{
+  background-image: linear-gradient(to top,#ECECEC,#F9F9F9);
+}
+
+/* Form style end */
