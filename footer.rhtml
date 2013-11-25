@@ -14,6 +14,18 @@
 </div>
 <script type="text/javascript" src="http://barra.brasil.gov.br/barra.js?cor=verde"></script>
 <script type="text/javascript">
+  var update_droppables_list = [];
+
+  function updateDroppables() {
+    for(var i = 0; i < update_droppables_list.length; i++) {
+      eval(update_droppables_list[i]);
+    }
+
+    window.setTimeout(function(){
+      updateDroppables();
+    }, 1000);
+  }
+
   // Script that include the video-block on Droppables
   function addVideoToDroppables() {
   	var script_search = jQuery(".blocks script"); // get all script tags
@@ -34,8 +46,11 @@
         new_code = before + after; 
 
         eval(new_code); // re-execute the function
+        update_droppables_list.push(new_code);
       }
     }
+
+    updateDroppables();
   }
 
 
