@@ -454,6 +454,10 @@ div#article-parent {
     padding: 0px 0px 0px 30px;
 }
 
+.related-organizations-block ul {
+    padding: 0px;
+}
+
 /* .box-1 .menu-submenu {
  *   bottom: 80px;
  *   right: -40px;
@@ -777,5 +781,4 @@ div#article-parent {
   text-align: left;
   padding: 10px;
 }
-
 
