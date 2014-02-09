@@ -57,7 +57,7 @@ body {
     background-image: -o-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -moz-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -webkit-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
-    background-image: -ms-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%); 
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -webkit-gradient(
         linear,
         left bottom,
@@ -689,7 +689,7 @@ div#article-parent {
 
 .formfield input, .formfield textarea {
   border: 1px solid #DFDFDF !important;
-  background-image: none  !important;  
+  background-image: none  !important;
   background-color: #fff !important;
   line-height: 1.8em !important;
   color: #333 !important;
@@ -784,12 +784,12 @@ div#article-parent {
 
 
 .author,
-.header-content,
-#box-35330 h3 { display: none; }
-#block-51740 .track_list .item_card {
-margin: 0px;
-margin-left: -1px;
-margin-top: 5px;
+.header-content { display: none; }
+
+.track_list .item_card {
+  margin: 0px;
+  margin-left: -1px;
+  margin-top: 5px;
 }
 
 .profile-homepage .box-1 .recent-documents-block ul {
@@ -803,7 +803,7 @@ overflow: auto;
   background: url("images/comentarios.png") no-repeat left center #fffafa;
 }
 .track_list .item_card .track_stats .hits .counter {
-  background: url("images/visualizacoes.png") no-repeat left center #fffafa;	
+  background: url("images/visualizacoes.png") no-repeat left center #fffafa;
 }
 .track_list .item_card .track_stats .counter {
   margin-top: 1px;
@@ -864,7 +864,7 @@ all_tracks .track_list {
 	 padding: 10px 20px 10px 50px;
     text-align: left;
     margin-right: 50px;
-	
+
 }
 
 .track_list .item_card {
@@ -891,7 +891,7 @@ all_tracks .track_list {
 	display: inline-block;
 }
 
-.common-profile-list-block .vcard a, 
+.common-profile-list-block .vcard a,
 .track_list .item_card:hover {
     background-color: white;
 }
@@ -1110,7 +1110,7 @@ _software,_cultura_e_conhecimentos_livres*/
 
 .track_list .item .track_content .steps h3{
     font-size: 13px !important;
-    text-transform: uppercase;	
+    text-transform: uppercase;
     font-weight: normal;
 }
 
@@ -1148,7 +1148,7 @@ _software,_cultura_e_conhecimentos_livres*/
 
 .step a:link, #content .step a:link, dl.portlet .step a:link {
 	color: #999; /*cinza escuro*/
-	/*teste*/	 
+	/*teste*/
 	display: inline-block;
    max-width: 80%;
    vertical-align: middle;
@@ -1180,7 +1180,7 @@ _software,_cultura_e_conhecimentos_livres*/
 
 #track .step_list .step .content .name {}
 
-#track .step .name, 
+#track .step .name,
 #track .step .name a {
 	color: #999;
 }
@@ -1280,8 +1280,3 @@ width: auto;
 
 .controller-sub_organizations_plugin_profile .box-1 .common-profile-list-block .profile_link { width: 150px; }
 
-/* related organizations */
-
-#block-34417 ul {
-  width:100%;
-}
