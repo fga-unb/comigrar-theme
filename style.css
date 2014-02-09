@@ -782,3 +782,500 @@ div#article-parent {
   padding: 10px;
 }
 
+
+.author,
+.header-content,
+#box-35330 h3 { display: none; }
+#block-51740 .track_list .item_card {
+margin: 0px;
+margin-left: -1px;
+margin-top: 5px;
+}
+
+.profile-homepage .box-1 .recent-documents-block ul {
+height: 170px;
+overflow: auto;
+}
+
+
+/*.track_list*/
+.track_list .item_card .track_stats .comments .counter {
+  background: url("images/comentarios.png") no-repeat left center #fffafa;
+}
+.track_list .item_card .track_stats .hits .counter {
+  background: url("images/visualizacoes.png") no-repeat left center #fffafa;	
+}
+.track_list .item_card .track_stats .counter {
+  margin-top: 1px;
+  padding: 3px 0 0 30px;
+  text-align: left;
+  font-size: 10pt;
+  display: block;
+}
+.track_list .item_card .track_stats .hits .label,
+.track_list .item_card .track_stats .comments .label {
+  font-size: 7pt;
+  float: right;
+}
+
+.action-home-index #content .track-card-list-block{
+    background: url("images/bg-pessoas.jpg") no-repeat center top transparent;
+	 padding: 2em 0 0;
+}
+
+.action-home-index .track-card-list-block .block-footer-content {
+    margin-bottom: 15px;
+    margin-top: -5px;
+}
+
+#content .track-card-list-block{
+    display: block;
+    overflow: hidden;
+    padding: 4em 2em;
+    left: -480px;
+    margin-left: 50%;
+	 margin-bottom: 15px;
+    padding: 2em 0 0;
+    position: relative;
+    width: 960px;
+    text-align: center;
+}
+
+all_tracks .track_list {
+	background-image: url("images/no-image.gif") no-repeat center top transparent;
+}
+/*
+.track_list .view_all {
+	background-image: url("images/button-read-more-vazio.png") no-repeat center top transparent;
+	width: 161px;
+	height: 39px;
+	color: #000;
+	font-weight: bold;
+	padding-left: 50px;
+}
+*/
+
+.action-home-index #content .box-1 .block-footer-content .view_all a{
+    background: url("images/button-read-more-vazio.png") no-repeat scroll left 50% transparent;
+    color: #000000;
+    display: inline-block;
+    font-weight: bold;
+    /*height: 39px;*/
+	 padding: 10px 20px 10px 50px;
+    text-align: left;
+    margin-right: 50px;
+	
+}
+
+.track_list .item_card {
+    background-color: #fffafa;
+    border: 1px solid #DDDDDD;
+    margin: 10px 15px;
+    padding: 0;
+    width: 190px;
+	 max-width: 190px;
+	 height: 100%;
+    min-height: 335px;
+	 /*display: inline-block;*/
+}
+
+.action-home-index .track_list {
+	padding: 0 30px;
+}
+
+.action-home-index .track_list .item_card {
+	margin: 10px 15px 0;
+}
+
+.track_list .item_card a{
+	display: inline-block;
+}
+
+.common-profile-list-block .vcard a, 
+.track_list .item_card:hover {
+    background-color: white;
+}
+
+#content .track_list .item_card .track_content{
+	 height: 335px;
+	 overflow: hidden;
+}
+
+#content .track_list .item_card .track_content .title{
+    color: white;
+    font-size: small;
+    font-weight: normal;
+    padding: 5px 0;
+    text-align: center;
+	 min-height: 16px;
+}
+
+
+#content .track_list .item_card .track_content .image{
+	border: 1px solid #ddd;
+	width: 175px;
+	height: 122px;
+	overflow: hidden;
+	margin: 0.5em;
+}
+
+#content .track_list .item_card .track_content .name {
+	 font-size: small;
+    font-weight: normal;
+    padding: 5px 0;
+    text-align: left;
+    margin: 0 0.5em;
+}
+
+
+#content .track_list .item_card .track_content .lead {
+    font-weight: normal;
+    padding: 5px 0;
+    margin: 0 0.5em;
+    text-align: left;
+    color: black;
+}
+/*Track list - Categorias*//*Variação de cor dos títulos do track list*/
+/*_agroecologia
+_comércio_justo_e_solidário
+_comunicação
+_cultura
+_finanças_solidárias
+_formação
+_marco_legal
+_organização_do_movimento
+_pesquisa_e_tecnologia
+_políticas_públicas
+_produção,_comercialização_e_consumo
+_relações_internacionais
+_software,_cultura_e_conhecimentos_livres*/
+
+/*category_not_defined*/
+#content .track_list .category_not_defined .track_content .title {
+	background-color: #666;
+}
+#content .track_list .category_not_defined .track_content .name {
+	color: #666;
+}
+
+/*category_estrangeiro*/
+
+#content .track_list .category_trabalho-estrangeiro.item_card .track_content .title,
+#content .track_list .category_estrangeiro.item_card .track_content .title {
+	background-color: #FF7A00;
+}
+#content .track_list .category_trabalho-estrangeiro.item_card .track_content .name,
+#content .track_list .category_estrangeiro.item_card .track_content .name {
+	color: #FF7A00;
+}
+/*category_agroecologia*/
+#content .track_list .category_agroecologia.item_card .track_content .title {
+	background-color: blue;
+}
+#content .track_list .category_agroecologia.item_card .track_content .name {
+	color: blue;
+}
+/*category_comercio-justo-e-solidario*/
+#content .track_list .category_comercio-justo-e-solidario.item_card .track_content .title {
+	background-color: green;
+}
+#content .track_list .category_comercio-justo-e-solidario.item_card .track_content .name {
+	color: green;
+}
+/*category_comunicacao*/
+#content .track_list .category_comunicacao.item_card .track_content .title {
+	background-color: orange;
+}
+#content .track_list .category_comunicacao.item_card .track_content .name {
+	color: orange;
+}
+/*category_cultura*/
+#content .track_list .category_cultura.item_card .track_content .title {
+	background-color: #541f5d;
+}
+#content .track_list .category_cultura.item_card .track_content .name {
+	color: #541f5d;
+}
+/*category_finanças_solidarias*/
+#content .track_list .category_financas-solidarias.item_card .track_content .title {
+	background-color: GoldenRod;
+}
+#content .track_list .category_financas-solidarias.item_card .track_content .name {
+	color: GoldenRod;
+}
+/*category_formacao*/
+#content .track_list .category_formacao.item_card .track_content .title {
+	background-color: Fuchsia;
+}
+#content .track_list .category_formacao.item_card .track_content .name {
+	color: Fuchsia;
+}
+/*category_marco_legal*/
+#content .track_list .category_marco-legal.item_card .track_content .title {
+	background-color: FireBrick;
+}
+#content .track_list .category_marco-legal.item_card .track_content .name {
+	color: FireBrick;
+}
+/*category_organizacao_do_movimento*/
+#content .track_list .category_organizacao-do-movimento.item_card .track_content .title {
+	background-color: DodgerBlue;
+}
+#content .track_list .category_organizacao-do-movimento.item_card .track_content .name {
+	color: DodgerBlue;
+}
+/*category_pesquisa_e_tecnologia*/
+#content .track_list .category_pesquisa-e-tecnologia.item_card .track_content .title {
+	background-color: DarkViolet;
+}
+#content .track_list .category_pesquisa-e-tecnologia.item_card .track_content .name {
+	color: DarkViolet;
+}
+/*category_politicas-publicas*/
+#content .track_list .category_politicas-publicas.item_card .track_content .title {
+	background-color: #3364a3;
+}
+#content .track_list .category_politicas-publicas.item_card .track_content .name {
+	color: #3364a3;
+}
+/*category_producao_comercializacao_e_consumo*/
+#content .track_list .category_producao-comercializacao-e-consumo.item_card .track_content .title {
+	background-color: Crimson;
+}
+#content .track_list .category_producao-comercializacao-e-consumo.item_card .track_content .name {
+	color: Crimson;
+}
+/*category_relações_internacionais*/
+#content .track_list .category_relacoes-internacionais.item_card .track_content .title {
+	background-color: BlueViolet;
+}
+#content .track_list .category_relacoes-internacionais.item_card .track_content .name {
+	color: BlueViolet;
+}
+/*category_software,_cultura_e_conhecimentos_livres*/
+#content .track_list .category_software-cultura-e-conhecimentos-livres.item_card .track_content .title {
+	background-color: OrangeRed;
+}
+#content .track_list .category_software-cultura-e-conhecimentos-livres.item_card .track_content .name {
+	color: OrangeRed;
+}
+
+.track_list .item_card .track_stats {
+  padding: 0 5px;
+    /*overflow: hidden;*/
+	height: 25px;
+}
+
+/*track list Internas*/
+.track_list .item .track_content .lead {
+    float: left;
+    padding: 2em;
+    text-align: left;
+    width: 40%;
+}
+
+/*track list - páginas internas - main content*/
+
+.track_list .track_content {
+	 /*display: inline-block;*/
+	 display: block;
+    height: 100%;
+}
+
+.track_list .item .track_content{
+	/*display: block;*/
+}
+
+.track_list .item .step {
+    padding: 5px;
+}
+
+.track_list .item .track_content .lead {
+	width: 30%;
+}
+
+.track_list .item .track_content .lead p.lead{
+	color: #444;
+}
+
+#content .track_list .item .track_content .lead a {
+    font-weight: bold;
+	 color: #444;
+}
+
+.track_list .item .track_content .steps {
+	 width: 60%;
+    font-weight: normal;
+}
+
+.track_list .item .track_content .steps h3{
+    font-size: 13px !important;
+    text-transform: uppercase;	
+    font-weight: normal;
+}
+
+.track_list .item .track_content .steps .position,
+#track .step_list .step .position {
+    border-radius: 50% 50% 50% 50%;
+    color: white;
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*** step list ***/
+
+/*geral*/
+#track .step_list .step {
+    background: url("images/steps_bg.png") repeat-x center top #fff;/*branco com o fundo em degradê*/
+    display: inline-block;
+    width: 100%;
+}
+
+#track .step_list .step a {
+	 background-color: transparent;/*transparente*/
+    color: #999;/*cinza escuro escuro*/
+}
+
+#track .step_list .step .position{
+	  background-color: #999;/*cinza escuro escuro*/
+	  color: #fff;/*branco*/
+}
+
+.step a:link, #content .step a:link, dl.portlet .step a:link {
+	color: #999; /*cinza escuro*/
+	/*teste*/	 
+	display: inline-block;
+   max-width: 80%;
+   vertical-align: middle;
+}
+
+#track .step_list .step .position {
+	/*background: #666666;*/
+	background-color: #999;
+   display: inline-block;
+   font-size: 250%;
+	color: #fff;
+    margin: 15px;
+    padding: 15px;
+}
+
+#track .step_list .step .content {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+	 border-bottom: 0 none;
+	 vertical-align: top;
+	 max-width: 80%;
+	 /*max-width: 600px;*/
+}
+
+#track .step_list .step .content .date {
+    font-weight: normal;
+}
+
+#track .step_list .step .content .name {}
+
+#track .step .name, 
+#track .step .name a {
+	color: #999;
+}
+
+#track .step_list .step .content .lead {
+	font-weight: normal;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #666;
+}
+
+#track .step_list .step .content .lead p{
+	margin-bottom: 0px;
+}
+
+#track .step_list .step .content object,
+#track .step_list .step .content .lead img{
+	max-width: 80%;
+}
+
+
+/*ítens específicos*/
+
+/*oculto*/
+#track #hidden_steps .step_list .step .position {
+	background-color: transparent;
+}
+
+
+/*ativo*/
+
+#content .step.step_active {
+    background-color: #E8F3E9;/*verde claro*/
+    background-image: url("images/no-image.gif");
+}
+
+#content .step.step_active:hover {
+	background-color: #B8D4C1;
+}
+
+#content .step.step_active a {
+	 color: #397941;/*verde escuro*/
+}
+
+#content .step.step_active .position{
+	  background-color: #397941;/*verde escuro*/
+	  color: #E8F3E9;/*verde claro*/
+}
+
+.step_active a:link, #content .step_active a:link, dl.portlet .step_active a:link {
+	color: #397941; /*verde escuro*/
+}
+
+/*em andamento*/
+
+#content .step.step_waiting {
+    background-color: #fff0cf;/*laranja claro*/
+    background-image: url("images/no-image.gif");
+}
+
+#content .step.step_waiting a {
+	 color: #C6A142;/*laranja escuro*/
+}
+
+#content .step.step_waiting .position{
+	  background-color: #c6a142;/*laranja escuro*/
+	  color: #fff0cf;/*laranja claro*/
+}
+
+.step_waiting a:link, #content .step_waiting a:link, dl.portlet .step_waiting a:link {
+	color: #c6a142; /*laranja escuro*/
+}
+
+/*finalizado*/
+
+#content .step.step_finished {
+    background: url("images/steps_bg.png") repeat-x center top #fff;/*branco com o fundo em degradê*/
+}
+
+#content .step.step_finished a {
+	 background-color:transparent;/*transparente*/
+    color: #999;/*cinza escuro escuro*/
+}
+
+#content .step.step_finished .position{
+	  background-color: #999;/*cinza escuro escuro*/
+	  color: #fff;/*branco*/
+}
+
+.step_finished a:link, #content .step_finished a:link, dl.portlet .step_finished a:link {
+	color: #999; /*cinza escuro*/
+}
+
+#content .box-3 .block {
+width: auto;
+}
+
+.controller-sub_organizations_plugin_profile .box-1 .common-profile-list-block .profile_link { width: 150px; }
