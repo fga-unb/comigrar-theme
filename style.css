@@ -1279,3 +1279,9 @@ width: auto;
 }
 
 .controller-sub_organizations_plugin_profile .box-1 .common-profile-list-block .profile_link { width: 150px; }
+
+/* related organizations */
+
+#block-34417 ul {
+  width:100%;
+}
