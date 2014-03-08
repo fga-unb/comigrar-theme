@@ -1,27 +1,97 @@
 <div id="barra-brasil">
+    <a href="http://brasil.gov.br" style="background:#7F7F7F; height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif; text-decoration:none; color:white; ">Portal do Governo Brasileiro</a>
 </div>
-<div id="barra-psocial">
-<div id="assets-menu">
-  <ul>
-    <%= generate_assets_menu %>
-  </ul>
-</div><!-- fim id="assets-menu" -->
+<div class="header-content">
+  <div role="banner" id="header">
+    <div>
+      <ul id="accessibility">
+        <li>
+          <a id="link-conteudo" href="#content" accesskey="1">
+            Ir para o conteúdo
+            <span>1</span>
+          </a>
+        </li>
+        <li>
+          <a id="link-navegacao" href="#barra-psocial" accesskey="2">
+            Ir para o menu
+            <span>2</span>
+          </a>
+        </li>
+        <li>
+          <a id="link-buscar" href="#portal-searchbox" accesskey="3">
+            Ir para a busca
+            <span>3</span>
+          </a>
+        </li>
+        <li>
+          <a id="link-rodape" href="#theme-footer" accesskey="4">
+            Ir para o rodapé
+            <span>4</span>
+          </a>
+        </li>
+      </ul>
+      <ul id="portal-siteactions">
+        <li id="siteaction-accessibility">
+          <a href="#">Acessibilidade</a>
+        </li>
+        <li id="siteaction-contraste">
+          <a href="#">Alto Contraste</a>
+        </li>
+        <li id="siteaction-mapadosite">
+          <a href="/search">Mapa do Site</a>
+        </li>
+      </ul>
 
-<script type="text/javascript">
-  jQuery(function($) {
-    $("#site-title, #assets-menu").mouseover(function() {
-      clearTimeout( window.closeAssetsTimeout );
-      $("#assets-menu").slideDown(400);
-    });
-    $("#site-title, #assets-menu").mouseout(function() {
-      window.closeAssetsTimeout =
-      setTimeout( function() { $("#assets-menu").slideUp(400); }, 500 );
-    });
-  });
-</script>
+      <div id="logo">
+        <a title="Participa.br" href="/">
+          <span id="portal-title">Participa.br</span>
+        </a>
+      </div>
+
+      <div role="search" id="portal-searchbox">
+        <form action="/search">
+          <input type="text" autocomplete="off" name="query" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="3" class="searchField" id="searchGadget">
+          <input type="submit" class="searchButton" value="Buscar"></form>
+      </div>
+
+      <div id="social-icons">
+        <ul>
+          <li>
+            <a id="sb_flickr" title="Flickr" href="#"><span>Flickr</span></a>
+          </li>
+          <li>
+            <a id="sb_face" title="Facebook" href="http://facebook.com/participabr"><span>Facebook</span></a>
+          </li>
+          <li>
+            <a id="sb_youtb" title="Youtube" href="#"><span>Youtube</span></a>
+          </li>
+          <li>
+            <a id="sb_tweet" title="Twitter" href="http://twitter.com/participabr"><span>Twitter</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="sobre">
+      <ul>
+        <li id="link-faq">
+          <a href="/ajuda/ajuda/duvidas-frequentes">Perguntas frequentes</a>
+        </li>
+        <li id="link-contact">
+          <a href="/contact/portal/new">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="barra-psocial">
+  <div id="categories_menu">
+    <%= theme_include 'categories' %>
+  </div>
 </div>
 
 <div id="search-header">
-  <%= render :partial => 'shared/profile_search_form' %>
+      <%= render :partial => 'shared/profile_search_form' %>
 </div>
 

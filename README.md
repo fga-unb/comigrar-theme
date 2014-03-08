@@ -1,6 +1,6 @@
-Conference Theme Noosfero
-=========================
+Conference Theme Participa.BR
+=============================
 
-Noosfero theme for the Conference environment.
+Participa.BR theme for the Conference environment. Requirement "participa-theme"
 
 Install on /public/designs/themes/conference
