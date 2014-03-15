@@ -373,7 +373,6 @@ div#article-parent {
   border: 1px solid #DFDFDF !important;
   background-image: none  !important;
   background-color: #fff !important;
-  line-height: 1.8em !important;
   color: #333 !important;
   font-size: 13px !important;
   outline: none !important;
@@ -409,7 +408,70 @@ div#article-parent {
 
 /* Form style end */
 
+/* List links on content .box-1 */
+#content .box-1 .container-block-plugin_container-block .link-list-block {
+  min-height: 300px;
+  text-align: center;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li {
+  display: block;
+  clear: both;
+  border: 0px;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a {
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: none;
+  color: #FFF;
+  background: #AAA;
+  font-weight: bold;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a:hover {
+  outline: 3px solid #000;
+  background: #DDD;
+  color: #000;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li:nth-child(1) a {
+  background: #edd400;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li:nth-child(2) a {
+  background: #4e9a06;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li:nth-child(3) a {
+  background: #555753;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li:nth-child(4) a {
+  background: #204a87;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li:nth-child(5) a {
+  background: #ce5c00;
+}
+/* Colors Community OSC by icons */
+#content .box-1 .container-block-plugin_container-block .link-list-block li a.icon-up-red {
+ background: #008ED4;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a.icon-search {
+ background: #CC0000;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a.icon-ok {
+ background: #ffc909;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a.icon-login {
+ background: #017848;
+}
+#content .box-1 .container-block-plugin_container-block .link-list-block li a.icon-help {
+ background: #31114F;
+}
+
 /* Others FIX */
+
+#site-title { width: 50px; }
+
+.article-types li { height: auto; }
 
 .author { display: none; }
 
@@ -426,3 +488,15 @@ div#article-parent {
 #box-organizer .block {
 outline: 1px dotted #DFDFDF;
 }
+
+#profile-wall #leave_scrap textarea { width: 99%; }
+
+#cat_menu {
+  overflow: hidden;
+  padding-right: 170px;
+}
+
+/* Adjust blocks style menu items */
+#content .profile-info-options a.button.with-text { border-bottom: 1px solid #CCC !important; }
+#content .link-list-block li a { border-bottom: 0px !important; padding: 5px; }
+#content .recent-documents-block .block-title { border-bottom: 0px !important; }
